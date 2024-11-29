@@ -1,0 +1,24 @@
+.title{
+    font-size:1000%;
+    position:relative;
+    z-index: 1;
+    color:white;
+}
+
+.title_video{
+    inset:0;
+    position:absolute;
+}
+
+.title_video::after{
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+ img,video{
+    max-width:100%;
+ }
